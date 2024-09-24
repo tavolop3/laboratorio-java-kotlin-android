@@ -1,0 +1,34 @@
+package gargamelLabs;
+
+public class ViolentStrategy extends Strategy {
+	
+	public ViolentStrategy(GargamelRobot robot) {
+		super(robot);
+	}
+
+	@Override
+	public void run() {
+		while(true) {
+			robot.ahead(100);
+			robot.turnGunRight(360); 
+			robot.back(100);
+			robot.turnGunRight(360);
+		}
+	}
+
+	@Override
+	public void onScannedRobot() {
+		// Turn gun to point at the scanned robot
+		robot.turnGunTo(robot.scannedAngle);
+
+		// Fire!
+		robot.fire(3);
+	}
+
+	@Override
+	public void onHitByBullet() {
+		// Move ahead 100 and in the same time turn left perpendicular to the bullet
+		robot.turnAheadLeft(100, 90 - robot.hitByBulletBearing);
+	}
+
+}

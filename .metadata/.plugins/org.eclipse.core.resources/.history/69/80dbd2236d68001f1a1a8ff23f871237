@@ -1,0 +1,43 @@
+package gargamelLabs;
+import robocode.*;
+
+
+public class GargamelRobot extends JuniorRobot
+{
+	private Strategy strategy;	
+	
+	public GargamelRobot() {
+		super();
+		strategy = new ViolentStrategy(this);
+	}
+
+	@Override	
+	public void run() {
+		setColors(green, green, black, black, black);
+		strategy.run();
+	}
+
+	/**
+	 * onScannedRobot: What to do when you see another robot
+	 */
+	@Override
+	public void onScannedRobot() {
+		strategy.onScannedRobot();
+	}
+
+	/**
+	 * onHitByBullet: What to do when you're hit by a bullet
+	 */
+	@Override
+	public void onHitByBullet() {
+		strategy.onHitByBullet();
+	}
+	
+	/**
+	 * onHitWall: What to do when you hit a wall
+	 */
+	@Override
+	public void onHitWall() {
+		strategy.onHitWall();
+	}	
+}

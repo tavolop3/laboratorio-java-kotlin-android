@@ -1,0 +1,22 @@
+package gargamelLabs;
+
+public abstract class Strategy {
+	protected GargamelRobot robot;
+
+	public Strategy(GargamelRobot robot) {
+		this.robot = robot;
+	}
+	
+	public abstract void run();
+	public abstract void onScannedRobot();
+	public abstract void onHitByBullet();
+	public abstract void onHitWall();
+	
+	public GargamelRobot getRobot() {
+		return robot;
+	}
+
+	public void setRobot(GargamelRobot robot) {
+		this.robot = robot;
+	}
+}

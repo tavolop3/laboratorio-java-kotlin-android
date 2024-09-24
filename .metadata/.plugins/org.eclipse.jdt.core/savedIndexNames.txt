@@ -1,0 +1,25 @@
+INDEX VERSION 1.134+/home/tao/eclipse-workspace/laboratorio/.metadata/.plugins/org.eclipse.jdt.core
+1677528867.index
+1206292942.index
+3532130068.index
+4178524866.index
+765110496.index
+152455678.index
+3447623317.index
+4293141347.index
+3567680209.index
+2197757210.index
+1182652726.index
+2681831553.index
+769849676.index
+3785807458.index
+1417142063.index
+1865797976.index
+3556264226.index
+4201155511.index
+3388447616.index
+659105898.index
+2109198040.index
+3223757680.index
+832320789.index
+1716425348.index
