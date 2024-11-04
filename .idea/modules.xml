@@ -4,11 +4,18 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/laboratorio.iml" filepath="$PROJECT_DIR$/.idea/laboratorio.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica5/p5.ej2/p5.ej2.iml" filepath="$PROJECT_DIR$/practica5/p5.ej2/p5.ej2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica5/p5.ej3/p5.ej3.iml" filepath="$PROJECT_DIR$/practica5/p5.ej3/p5.ej3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica6/p6.ej1/p6.ej1.iml" filepath="$PROJECT_DIR$/practica6/p6.ej1/p6.ej1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica6/p6.ej2/p6.ej2.iml" filepath="$PROJECT_DIR$/practica6/p6.ej2/p6.ej2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica6/p6.ej3/p6.ej3.iml" filepath="$PROJECT_DIR$/practica6/p6.ej3/p6.ej3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica6/p6.ej4/p6.ej4.iml" filepath="$PROJECT_DIR$/practica6/p6.ej4/p6.ej4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica6/p6.ej5/p6.ej5.iml" filepath="$PROJECT_DIR$/practica6/p6.ej5/p6.ej5.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica 4/practica 4.iml" filepath="$PROJECT_DIR$/practica 4/practica 4.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica 4/practica4.ej2/practica4.ej2.iml" filepath="$PROJECT_DIR$/practica 4/practica4.ej2/practica4.ej2.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica 4/practica4.ej3/practica4.ej3.iml" filepath="$PROJECT_DIR$/practica 4/practica4.ej3/practica4.ej3.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica 4/practica4.ej4/practica4.ej4.iml" filepath="$PROJECT_DIR$/practica 4/practica4.ej4/practica4.ej4.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica5/practica5.iml" filepath="$PROJECT_DIR$/practica5/practica5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica6/practica6.iml" filepath="$PROJECT_DIR$/practica6/practica6.iml" />
     </modules>
   </component>
 </project>
